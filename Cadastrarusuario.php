@@ -23,7 +23,7 @@
 				<div class="form-row">
 					<div class="col-md-6">
 					  <div class="form-label-group">
-						<input type="tel" name="telefone" id="Telefone" class="form-control" placeholder="Telefone" maxlength="12" required="required">
+						<input type="tel" name="telefone" id="Telefone" class="form-control" placeholder="DDD+Telefone" maxlength="11" required="required">
 					  </div>
 					</div>
 					<div class="col-md-6">
@@ -45,7 +45,7 @@
 					</div>
 					<div class="col-md-6">
 					  <div class="form-label-group">
-						<button class="btn btn-primary" onClick="faz()"> Validar CPF </button>
+						<button class="btn btn-primary"> Validar CPF </button>
 					  </div>
 					</div>
 				</div>
@@ -76,16 +76,16 @@
 					</div>
 					<div class="col-md-6">
 					  <div class="form-label-group">
-					  	<input type="text" name="num" id="num" value="000" class="form-control" placeholder="N°" required="required" />
+					  	<input type="text" name="num" id="num" class="form-control" placeholder="N°" required="required" />
 					  </div>
 					</div>
 				  </div>
-				</div>
+				</div><hr>
 				<div class="form-group">
 				  <div class="form-row">
 					<div class="col-md-6">
 					  <div class="form-label-group">
-					  	<input type="text" name="cep" id="cep" value="62880-174" maxlength="9" onblur="pesquisacep(this.value);" class="form-control" placeholder="Cep" required="required" />
+					  	<input type="text" name="cep" id="cep" maxlength="9" onblur="pesquisacep(this.value);" class="form-control" placeholder="Cep" required="required" />
 					  </div>
 					</div>
 					<div class="col-md-6">

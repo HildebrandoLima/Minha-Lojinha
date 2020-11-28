@@ -3,6 +3,7 @@
     <div class="col-lg-9">
         <header class="jumbotron my-4">
 			<h4> Verificar Categorias </h4><hr>
+			<p style="color: #FF0000;"> Atenção: Ao <b>Editar/Remover</b>, quaisquer uma das categorias abaixo, os produtos que são vinculadas a elas, estarão sujeitos a "sumirem" visualmente do sistema. </p>
 			<div class="table-responsive">
 			<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
 				<thead>

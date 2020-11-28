@@ -20,5 +20,5 @@
 	$niveis_acesso_id = 2;
 
 	$insereDados = mysqli_query($conn, "INSERT INTO usuarios (nome , email , telefone , cpf , nascimento , sexo , login , senha , num , cep , rua , bairro , cidade , uf , ibge , niveis_acesso_id , data_cadastro)
-	VALUES ('$nome' , '$email' , '$telefone' , '$cpf' , '$nascimento' , '$sexo' , '$login', md5('$senha') , '$num' , '$cep' , '$rua' , '$bairro' , '$cidade' , '$uf', '$ibge' , '$niveis_acesso_id' , NOW())");
+	VALUES ('$nome' , '$email' , '55$telefone' , '$cpf' , '$nascimento' , '$sexo' , '$login', md5('$senha') , '$num' , '$cep' , '$rua' , '$bairro' , '$cidade' , '$uf', '$ibge' , '$niveis_acesso_id' , NOW())");
 	echo "<script> alert('Cadastro Realizado com Sucesso...'); window.location='/Minha-Lojinha/Index.php'</script>";

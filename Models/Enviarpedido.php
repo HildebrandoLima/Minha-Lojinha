@@ -21,13 +21,12 @@ include('Conexaodb.php');
 			$num_pedido .= $alphaNumeric[rand(0, strlen($alphaNumeric) - 1)];
 		}
 
-		foreach ($nome as $k => $v) {
-			$codigo = $id_produto[$k];
-			$name = $nome[$k];
-			$quantidade = $qtd[$k];
-			$pre = $preco[$k];
-			$su = $sub_total[$k];
-			//$total = $total_geral[$k];
+		foreach ($nome as $p => $v) {
+			$codigo = $id_produto[$p];
+			$name = $nome[$p];
+			$quantidade = $qtd[$p];
+			$pre = $preco[$p];
+			$su = $sub_total[$p];
 
 			$insereDados = mysqli_query($conn, "INSERT INTO pedidos (nome , qtd , preco , sub_total , total_geral , num_pedido , data_pedido)
 			VALUES ('$name' , '$quantidade' , '$pre' , '$su' , '$total_geral' , '$num_pedido', NOW())");
