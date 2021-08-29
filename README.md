@@ -1,6 +1,6 @@
 # Projeto Minha-Lojinha
 
-Neste projeto, abordo a temática de uma loja virtual, o mesmo possui várias funcionalidades, como: carrinho de compras, upload de imagens, diversos tipos de cadastros e seleções, um site totalmente dinêmico. Ele funciona no conceito de PDO e POO + MVC.
+Neste projeto, abordo a temática de uma loja virtual, o mesmo possui várias funcionalidades, como: carrinho de compras, upload de imagens, diversos tipos de cadastros e seleções, um site totalmente dinêmico. Ele funciona no conceito de PDO e POO + MVC, sem framework PHP, apenas no front-end.
 
 ## Tecnologias
 - HTML;
