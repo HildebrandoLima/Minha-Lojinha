@@ -21,7 +21,8 @@ Projeto totalmente feito por gerenciamento de software, com:
 - Desing de Frames;
 - Modelagem de Banco de Dados;
 - Modelagem de Sistema;
-- Modelagem de Classes.
+- Modelagem de Classes;
+- Posteriormente será adicionado uma pasta com o gerenciamento do projeto.
 
 ## Sistema em produção: [Loja Demo](http://lojademo.freevar.com/Index)
-Mais atenção, sistema ainda em desenvolimento, por enquanto conta apenas com o ambiente do usuário deslogado.
+Mais atenção, sistema ainda em desenvolimento, por enquanto conta apenas com o ambiente do usuário deslogado. Você poderá se deparar com erros e situações incompletas
